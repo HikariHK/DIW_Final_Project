@@ -34,6 +34,10 @@ header {
     align-items: center;
 }
 
+.nav-left .roll{
+    margin-left: 20px;
+}
+
 .nav-left .roll a{
     font-weight: bold;
     padding: 8px;
@@ -130,7 +134,6 @@ header {
     top: 76px;
     right: 0;
     background-color: #9670B3;
-    border-radius: 0 0 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: display 300ms ease-in-out; /* Adiciona a transição para o display */
@@ -165,6 +168,41 @@ header {
     font-size: 200px;
 }
 
+/* Style for main */
+main{
+    margin-top: 67px;
+}
+
+main .banner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2ACD3;
+    height: 432px;
+}
+
+main .banner h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .destaques .produto-destaque{
+    background-color: #C2ACD3;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+main .destaques h2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
 
 /* Style for footer*/
 
@@ -176,7 +214,7 @@ footer {
     margin: auto;
     top: 0;
     bottom: 0;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
 }
