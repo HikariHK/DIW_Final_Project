@@ -205,10 +205,15 @@ main .destaques .produto-destaque{
 }
 
 main .destaques h2{
+    font-weight: bold;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+}
+main .destaques  .produto-destaque p{
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -219,6 +224,10 @@ main .about{
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
+}
+
+main .about h2{
+    font-weight: bold;
 }
 
 main .about p{
