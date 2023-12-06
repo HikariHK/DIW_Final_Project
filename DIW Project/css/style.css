@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -187,13 +190,22 @@ main .banner h2{
     font-weight: bold;
 }
 
-main .destaques{
+main .highlight{
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-main .destaques .produto-destaque{
+main .highlight h2{
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+main .highlight .highlight-product{
     background-color: #C2ACD3;
     display: inline-block;
     text-align: center;
@@ -204,15 +216,7 @@ main .destaques .produto-destaque{
     width: 250px;
 }
 
-main .destaques h2{
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-main .destaques  .produto-destaque p{
+main .highlight .highlight-product p{
     font-size: 25px;
     font-weight: bold;
 }
