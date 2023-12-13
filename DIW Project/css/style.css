@@ -31,11 +31,20 @@ header {
 
 /* Style for nav-left */
 
+
+
 .nav-left{
     display: flex;
     margin-left: 20px;
     align-items: center;
 }
+
+
+.nav-left img {
+    height: 55px; /* Altura da logo */
+}
+
+/* Style for nav-center */
 
 .nav-left .roll{
     margin-left: 20px;
@@ -64,8 +73,6 @@ header {
     color: #5C4681;
 }
 
-/* Style for nav-center */
-
 .nav-center {
     flex-grow: 1; /* Ocupa o espaço disponível */
     margin: 0 20px; /* Espaçamento entre a logo e a barra de pesquisa */
@@ -78,7 +85,7 @@ header {
 
 .navbar .nav-center form input {
     width: 100%; /* Preenche todo o espaço disponível */
-    padding: 10px; /* Espaçamento interno */
+    padding: 5px; /* Espaçamento interno */
     border: 1px solid #ddd; /* Borda */
     border-radius: 5px 0px 0px 5px; /* Cantos arredondados */
     font-size: 20px;
@@ -97,7 +104,7 @@ header {
 }
 
 .navbar .nav-center form span{
-    font-size: 40px;
+    font-size: 29.2px;
 }
 
 /* Style for nav-right */
@@ -115,7 +122,7 @@ header {
 .nav-right span{
     height: 100%; /* Altura dos ícones */
     width: 100%;
-    font-size: 45px;
+    font-size: 35px;
     margin: 10px;
     color: #FFFFFF;
     transition: color 300ms ease-in-out;
@@ -126,7 +133,6 @@ header {
 .nav-right span:hover{
     color: #dfdfdf;
 }
-
 
 /* Style for submenu inside menu button */
 .submenu {
@@ -173,7 +179,7 @@ header {
 
 /* Style for main */
 main{
-    margin-top: 67px;
+    margin-top: 60px;
 }
 
 main .banner{

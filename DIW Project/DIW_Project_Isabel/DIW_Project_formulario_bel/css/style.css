@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ddd;
+    background-color: #ffffff;
 }
 
 header {
@@ -21,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
     box-shadow: 0px 4px 5.2px 0px rgba(0, 0, 0, 0.58);
 }
 
@@ -34,27 +37,9 @@ header {
     align-items: center;
 }
 
-.nav-left .roll a{
-    font-weight: bold;
-    padding: 8px;
-    background-color: #5C4681;
-    color: white;
-    margin: 1px;
-    font-size: 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
-}
 
 .nav-left img {
     height: 55px; /* Altura da logo */
-}
-
-/* Transition for nav-left */
-
-.nav-left .roll a:hover{
-    background-color: white;
-    color: #5C4681;
 }
 
 /* Style for nav-center */
@@ -71,7 +56,7 @@ header {
 
 .navbar .nav-center form input {
     width: 100%; /* Preenche todo o espaço disponível */
-    padding: 10px; /* Espaçamento interno */
+    padding: 5px; /* Espaçamento interno */
     border: 1px solid #ddd; /* Borda */
     border-radius: 5px 0px 0px 5px; /* Cantos arredondados */
     font-size: 20px;
@@ -90,7 +75,7 @@ header {
 }
 
 .navbar .nav-center form span{
-    font-size: 40px;
+    font-size: 29.2px;
 }
 
 /* Style for nav-right */
@@ -108,7 +93,7 @@ header {
 .nav-right span{
     height: 100%; /* Altura dos ícones */
     width: 100%;
-    font-size: 45px;
+    font-size: 35px;
     margin: 10px;
     color: #FFFFFF;
     transition: color 300ms ease-in-out;
@@ -130,7 +115,6 @@ header {
     top: 76px;
     right: 0;
     background-color: #9670B3;
-    border-radius: 0 0 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: display 300ms ease-in-out; /* Adiciona a transição para o display */
@@ -165,8 +149,78 @@ header {
     font-size: 200px;
 }
 
+/* CSS Bel */
 
-/* Style for footer-right */
+main{
+    margin-top: 67px;
+}
+
+.tituloform{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 3px;
+    margin-left: 30px;
+}
+
+.subtituloform{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #9670B3;
+    margin-top: 1px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.form{
+    background-color: #F1EAF5;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 30%;
+}
+
+.form2{
+    display: flex;
+    align-items: center;
+    border: 1px;
+    border-width: 2px;
+    border-color: white;
+    box-shadow: 1px;
+    border-style: inset;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    padding-right: 420px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.itemform{
+    font-size: 20px;
+    font-weight: bold;
+    color: #9670B3;
+}
+
+.cadastrar{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #5C4681; /* Cor de fundo padrão do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 15px 30px; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 5px 5px 5px 5px; /* Cantos arredondados do botão */
+  cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+  margin: 30px 0px 30px 200px;  /*topo, direita, inferior e esquerda, respectivamente.*/
+}
+
+.cadastrar:hover {
+    color: #5C4681;
+    background-color: #fff;
+}
+
+/* Style for footer*/
 
 footer {
     text-align: center;
@@ -176,7 +230,7 @@ footer {
     margin: auto;
     top: 0;
     bottom: 0;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
 }

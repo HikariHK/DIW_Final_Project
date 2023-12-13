@@ -7,7 +7,7 @@ function toggleMenu() {
         mainContent.style.marginTop = '127px'; // Ajuste conforme necessário
     } else {
         // Se o submenu está oculto, restaura a posição padrão do conteúdo principal
-        mainContent.style.marginTop = '67px';
+        mainContent.style.marginTop = '60px';
     }
 }
 
