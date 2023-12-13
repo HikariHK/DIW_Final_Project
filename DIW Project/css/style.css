@@ -42,7 +42,7 @@ header {
 }
 
 .nav-left .roll a{
-    font-weight: bold;
+    font-weight: 600;
     padding: 8px;
     background-color: #5C4681;
     color: white;
@@ -184,7 +184,6 @@ main .banner{
     align-items: center;
     justify-content: center;
     background-color: #C2ACD3;
-    width: 1600px;
     height: 100hv;
 }
 
@@ -204,13 +203,11 @@ main .highlight {
     justify-content: center;
 }
 
-main .highlight .highlight-product:hover{
-    transform: scale(1.1);
-}
-
 main .highlight h2 {
     font-weight: bold;
 }
+
+
 
 main .highlight .highlight-product {
     transition: transform 300ms ease-in-out;
@@ -222,6 +219,10 @@ main .highlight .highlight-product {
     margin: 20px;
     width: 25%; /* Ajuste a largura desejada para cada destaque, por exemplo, 30% */
     box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo total da largura */
+}
+
+main .highlight .highlight-product:hover{
+    transform: scale(1.1);
 }
 
 main .highlight .highlight-product img {
@@ -248,8 +249,8 @@ main .about h2{
 }
 
 main .about p{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 main .gallery{

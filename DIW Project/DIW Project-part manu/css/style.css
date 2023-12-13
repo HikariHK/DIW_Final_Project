@@ -1,12 +1,9 @@
-html{
-    scroll-behavior: smooth;
-}
 
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ddd;
 }
 
 header {
@@ -35,10 +32,6 @@ header {
     display: flex;
     margin-left: 20px;
     align-items: center;
-}
-
-.nav-left .roll{
-    margin-left: 20px;
 }
 
 .nav-left .roll a{
@@ -137,6 +130,7 @@ header {
     top: 76px;
     right: 0;
     background-color: #9670B3;
+    border-radius: 0 0 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: display 300ms ease-in-out; /* Adiciona a transição para o display */
@@ -171,13 +165,8 @@ header {
     font-size: 200px;
 }
 
-/* Style for main */
 
-main{
-    margin-top: 67px;
-}
-
-/* Style for footer*/
+/* Style for footer-right */
 
 footer {
     text-align: center;
@@ -187,7 +176,7 @@ footer {
     margin: auto;
     top: 0;
     bottom: 0;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 15px;
     padding-right: 15px;
 }
